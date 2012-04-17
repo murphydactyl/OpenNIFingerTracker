@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D31E83A153DEFC5006623A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D31E837153DEFC5006623A8 /* main.cpp */; };
+		412678A214B2A668000005FB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4126789E14B2A642000005FB /* OpenGL.framework */; };
+		412678A314B2A670000005FB /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412678A014B2A648000005FB /* GLUT.framework */; };
+		412678A414B2A6A8000005FB /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41A74A4A14633CC00043F6B9 /* Timer.cpp */; };
+		412678A514B2A6AB000005FB /* FingerTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41A74A4D14642A470043F6B9 /* FingerTracker.cpp */; };
+		412678A614B2A6AE000005FB /* FindIsoline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41A74A48146316460043F6B9 /* FindIsoline.cpp */; };
+		412678A714B2A6B1000005FB /* SceneDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4169804D1460909E001FD3F5 /* SceneDrawer.cpp */; };
+		4195A24014B4C71A0063F1AF /* libOpenNI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4195A23D14B4C7160063F1AF /* libOpenNI.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4126788E14B2A546000005FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D31E837153DEFC5006623A8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0D31E838153DEFC5006623A8 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		4126789014B2A546000005FB /* OutputVisualizer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OutputVisualizer; sourceTree = BUILT_PRODUCTS_DIR; };
+		4126789E14B2A642000005FB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		412678A014B2A648000005FB /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		4169804C1460909E001FD3F5 /* SceneDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDrawer.h; sourceTree = "<group>"; };
+		4169804D1460909E001FD3F5 /* SceneDrawer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneDrawer.cpp; sourceTree = "<group>"; };
+		4195A23D14B4C7160063F1AF /* libOpenNI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libOpenNI.dylib; sourceTree = "<group>"; };
+		41A74A47146316460043F6B9 /* FindIsoline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindIsoline.h; sourceTree = "<group>"; };
+		41A74A48146316460043F6B9 /* FindIsoline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindIsoline.cpp; sourceTree = "<group>"; };
+		41A74A4A14633CC00043F6B9 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		41A74A4B14633CC00043F6B9 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		41A74A4D14642A470043F6B9 /* FingerTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerTracker.cpp; sourceTree = "<group>"; };
+		41A74A4F14643A930043F6B9 /* FingerTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerTracker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4126788D14B2A546000005FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412678A314B2A670000005FB /* GLUT.framework in Frameworks */,
+				412678A214B2A668000005FB /* OpenGL.framework in Frameworks */,
+				4195A24014B4C71A0063F1AF /* libOpenNI.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4122F8D21460754900882BBB = {
+			isa = PBXGroup;
+			children = (
+				4126789E14B2A642000005FB /* OpenGL.framework */,
+				412678A014B2A648000005FB /* GLUT.framework */,
+				4195A23D14B4C7160063F1AF /* libOpenNI.dylib */,
+				4169804C1460909E001FD3F5 /* SceneDrawer.h */,
+				4169804D1460909E001FD3F5 /* SceneDrawer.cpp */,
+				41A74A47146316460043F6B9 /* FindIsoline.h */,
+				41A74A48146316460043F6B9 /* FindIsoline.cpp */,
+				41A74A4F14643A930043F6B9 /* FingerTracker.h */,
+				41A74A4D14642A470043F6B9 /* FingerTracker.cpp */,
+				41A74A4A14633CC00043F6B9 /* Timer.cpp */,
+				41A74A4B14633CC00043F6B9 /* Timer.h */,
+				0D31E837153DEFC5006623A8 /* main.cpp */,
+				0D31E838153DEFC5006623A8 /* main.h */,
+				4122F8DE1460754900882BBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4122F8DE1460754900882BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4126789014B2A546000005FB /* OutputVisualizer */,
+			);
+			name = Products;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4126788F14B2A546000005FB /* OutputVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4126789714B2A546000005FB /* Build configuration list for PBXNativeTarget "OutputVisualizer" */;
+			buildPhases = (
+				4126788C14B2A546000005FB /* Sources */,
+				4126788D14B2A546000005FB /* Frameworks */,
+				4126788E14B2A546000005FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutputVisualizer;
+			productName = Tester;
+			productReference = 4126789014B2A546000005FB /* OutputVisualizer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4122F8D41460754900882BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4122F8D71460754900882BBB /* Build configuration list for PBXProject "OpenNIFingerTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4122F8D21460754900882BBB;
+			productRefGroup = 4122F8DE1460754900882BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4126788F14B2A546000005FB /* OutputVisualizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4126788C14B2A546000005FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412678A414B2A6A8000005FB /* Timer.cpp in Sources */,
+				412678A514B2A6AB000005FB /* FingerTracker.cpp in Sources */,
+				412678A614B2A6AE000005FB /* FindIsoline.cpp in Sources */,
+				412678A714B2A6B1000005FB /* SceneDrawer.cpp in Sources */,
+				0D31E83A153DEFC5006623A8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4122F8E51460754900882BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/nite,
+					/usr/include/ni,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4122F8E61460754900882BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/nite,
+					/usr/include/ni,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4126789814B2A546000005FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = OutputVisualizer;
+			};
+			name = Debug;
+		};
+		4126789914B2A546000005FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = OutputVisualizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4122F8D71460754900882BBB /* Build configuration list for PBXProject "OpenNIFingerTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4122F8E51460754900882BBB /* Debug */,
+				4122F8E61460754900882BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4126789714B2A546000005FB /* Build configuration list for PBXNativeTarget "OutputVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4126789814B2A546000005FB /* Debug */,
+				4126789914B2A546000005FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4122F8D41460754900882BBB /* Project object */;
+}
